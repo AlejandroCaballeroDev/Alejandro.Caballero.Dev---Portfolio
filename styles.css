@@ -1311,3 +1311,26 @@ a.contact-detail-item:hover .value {
         grid-template-columns: 1fr;
     }
 }
+
+.lang-toggle-btn {
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 8px 12px;
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.lang-toggle-btn:hover {
+    background-color: var(--bg-secondary);
+    color: var(--primary);
+    border-color: var(--primary);
+}
